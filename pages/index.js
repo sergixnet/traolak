@@ -4,7 +4,7 @@ import getJoerak from '../lib/scrapping';
 
 export default function Home({ joerak, hours }) {
   return (
-    <Layout hours={hours}>
+    <Layout hours={hours} path="/">
       <Joerak joerak={joerak} />
     </Layout>
   );
