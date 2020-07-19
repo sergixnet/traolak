@@ -1,0 +1,49 @@
+.joerak {
+  height: 100%;
+  margin:  auto;
+  padding: 1rem 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  justify-content: center;
+  max-height: 400px;
+  max-width: 500px;
+}
+
+.joerak__item {
+  font-size: 1rem;
+  background-color: $wisteria;
+  margin: 0.5rem;
+  transition: transform 0.2s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+  a {
+    display: block;
+    padding:0.5rem;
+  }
+  
+  &:nth-child(n) {
+    background-color: $wisteria;
+  }
+  &:nth-child(2n) {
+    background-color: $belize-holes;
+  }
+  &:nth-child(3n) {
+    background-color: $nephritis;
+  }
+  &:nth-child(4n) {
+    background-color: $alizarin;
+  }
+  &:nth-child(5n) {
+    background-color: $green-sea;
+  }
+  &:nth-child(6n) {
+    background-color: $carrot;
+  }
+  &:nth-child(7n) {
+    background-color: $pomegranate;
+  }
+}

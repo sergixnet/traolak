@@ -1,0 +1,31 @@
+.site {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > * {
+    padding: 0 2rem;
+  }
+}
+
+.site__main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.site__footer {
+  text-align: center;
+  font-size: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 945px;
+  margin: 0 auto;
+  a {
+    text-decoration: underline;
+  }
+  p {
+    padding: 0 2rem;
+  }
+}

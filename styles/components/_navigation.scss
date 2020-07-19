@@ -1,0 +1,29 @@
+.navigation {
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__list__item {
+  margin: 0.5rem;
+  
+  a {
+    &:hover {
+      border-color: white;
+    }
+    border: 2px solid transparent;
+    padding: 0.5rem 1rem;    
+    display: block;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  
+  &.is-active a {
+    border-color: white;
+  }
+}

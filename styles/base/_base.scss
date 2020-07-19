@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $open-sans;
+  font-weight: 400;
+  color: white;
+  background-color: $midnight-blue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $source-sans-pro;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
