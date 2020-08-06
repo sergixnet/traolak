@@ -8,11 +8,10 @@ export default function Layout(props) {
   const description = props.description
     ? props.description
     : `Azken ${props.hours} orduetako euskal joerak twitter-en`;
-    console.log(props)
   return (
     <div className="site">
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
         <link rel="canonical" href={`https://traolak.vercel.app${props.path}`}/>
         <meta name="description" content={description} />
         <title>{title} | #Traolak</title>
