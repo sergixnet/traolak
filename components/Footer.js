@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="site__footer">
       <p>
-        <span>🧑‍🎨</span> Diseinu eta garapena:{' '}
+        <span>🧑🏻‍💻</span> Diseinu eta garapena:{' '}
         <a
           href="https://twitter.com/sergixnet"
           target="_blank"
