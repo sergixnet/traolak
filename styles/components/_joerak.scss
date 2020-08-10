@@ -25,25 +25,34 @@
     padding:0.5rem;
   }
   
-  &:nth-child(n) {
+  &:nth-child(1) {
     background-color: $wisteria;
   }
-  &:nth-child(2n) {
+  &:nth-child(2) {
     background-color: $belize-holes;
   }
-  &:nth-child(3n) {
+  &:nth-child(3) {
     background-color: $nephritis;
   }
-  &:nth-child(4n) {
+  &:nth-child(4) {
     background-color: $alizarin;
   }
-  &:nth-child(5n) {
+  &:nth-child(5) {
     background-color: $green-sea;
   }
-  &:nth-child(6n) {
+  &:nth-child(6) {
     background-color: $carrot;
   }
-  &:nth-child(7n) {
+  &:nth-child(7) {
     background-color: $pomegranate;
+  }
+  &:nth-child(8) {
+    background-color: $wisteria;
+  }
+  &:nth-child(9) {
+    background-color: $belize-holes;
+  }
+  &:nth-child(10) {
+    background-color: $nephritis;
   }
 }
