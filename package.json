@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "got": "^11.5.1",
+    "got": "^11.8.5",
     "next": "9.4.4",
     "normalize.css": "^8.0.1",
     "react": "16.13.1",
